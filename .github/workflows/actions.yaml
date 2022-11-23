@@ -1,7 +1,7 @@
 name: Actions
 on:
   schedule:
-    - cron: '0/5 * * * *'
+    - cron: '0 * * * *'
 jobs:
   test:
     runs-on: ubuntu-latest
