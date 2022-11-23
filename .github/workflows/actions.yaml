@@ -1,0 +1,10 @@
+name: Actions
+on:
+  schedule:
+    - cron: '0/5 * * * *'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo Time
+      run: time
